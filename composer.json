@@ -8,7 +8,7 @@
             "Xs4arabia\\Bookapp\\": "src/"
         }
     },
-    "version":"1.0",
+    "version":"1.0.0",
     "extra":{
         "laravel":{
             "providers":[
@@ -22,6 +22,6 @@
             "email": "fadhel-almubarak@hotmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {}
 }

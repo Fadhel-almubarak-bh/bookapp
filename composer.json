@@ -1,0 +1,27 @@
+{
+    "name": "xs4arabia/bookapp",
+    "description": "bookapp package in laravel",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Xs4arabia\\Bookapp\\": "src/"
+        }
+    },
+    "version":"1.0",
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Xs4arabia\\Bookapp\\BookappServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Fadhel Almubarak",
+            "email": "fadhel-almubarak@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
